@@ -3,6 +3,7 @@
 # This python application solve linear equation using python as a coding language and Tkinter as an interface maker
 1) Making the interface:
 To make the interface we need PAGE app "https://sajeewasp.com/page-installation/", then with it we can make an interface like this image below:
+
 ![image](https://user-images.githubusercontent.com/61596276/148260689-874b4aa9-5485-4229-85f2-99cf23f3bf1b.png)
 
 With the attribute name like the 2nd image below:
@@ -20,3 +21,6 @@ After making the functions we can bind the button with this functions like showi
 4)My problem:
 my problem is when i bind the button with the function and run the program ,the window doesn't open and it showing me this error on the consol:
 ![image](https://user-images.githubusercontent.com/61596276/148261350-9d5f289f-db7b-4ac3-82e4-21e1b2fab6ec.png)
+
+
+# Source:https://sajeewasp.com/equation-solver/
