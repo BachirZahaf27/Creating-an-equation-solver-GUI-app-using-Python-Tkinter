@@ -19,10 +19,10 @@ After making the functions we can bind the button with this functions like showi
 ![image](https://user-images.githubusercontent.com/61596276/148261137-f2e3b5f2-cd4c-4d74-a4ac-3fdb144a860f.png)
 ![image](https://user-images.githubusercontent.com/61596276/148261146-f4f79f40-76e2-48e0-896c-d531ad00f8bf.png)
 
-4)My problem:
+# My problem:
 my problem is when i bind the button with the function and run the program ,the window doesn't open and it showing me this error on the console:
 
 ![image](https://user-images.githubusercontent.com/61596276/148261350-9d5f289f-db7b-4ac3-82e4-21e1b2fab6ec.png)
 
 
-5) Source:https://sajeewasp.com/equation-solver/
+# Source:https://sajeewasp.com/equation-solver/
