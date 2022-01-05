@@ -32,16 +32,19 @@ class solver:
              
     def solveMatrix(self):
         condition1 = ((self.Entry1.get() is "") or (self.Entry2.get() is "") or (self.Entry3.get() is "") or
-			          (self.Entry4.get() is "") or (self.Entry5.get() is "") or (self.Entry6.get() is "") or
-			          (self.Entry7.get() is "") or (self.Entry8.get() is "") or (self.Entry9.get() is "") or
-			          (self.Entry10.get() is "") or (self.Entry11.get() is "") or (self.Entry12.get() is ""))
+		      (self.Entry4.get() is "") or (self.Entry5.get() is "") or (self.Entry6.get() is "") or
+		      (self.Entry7.get() is "") or (self.Entry8.get() is "") or (self.Entry9.get() is "") or
+		      (self.Entry10.get() is "") or (self.Entry11.get() is "") or (self.Entry12.get() is ""))
         if (condition1 is True):
                 fmsgbox.showinfo("Solver", "Empty user input. Please check!")
                 return
         matrix1 = np.array([[float(self.Entry1.get()),float(self.Entry2.get()),float(self.Entry3.get())],
-                    [float(self.Entry5.get()),float(self.Entry6.get()),float(self.Entry7.get())],
-                    [float(self.Entry9.get()),float(self.Entry10.get()),float(self.Entry11.get())]])
-        matrix2 = np.linalg.inv(matrixl)
+                    	    [float(self.Entry5.get()),float(self.Entry6.get()),float(self.Entry7.get())],
+                            [float(self.Entry9.get()),float(self.Entry10.get()),float(self.Entry11.get())]])
+        
+	
+	
+	matrix2 = np.linalg.inv(matrixl)
         matrix3 = np.array([float(self.Entry4.get()), float(self.Entry8.get()), float(self.Entry12.get())])
         results = np.round(matrix2.dot(matrix3),decimals=10)
         self.Entry13.insert(0,results[0])
@@ -86,7 +89,7 @@ class solver:
         self.Button1.configure(highlightbackground="#d9d9d9")
         self.Button1.configure(highlightcolor="black")
         self.Button1.configure(pady="0")
-        self.Button1.configure(text='''Solve''', command=self.solveMatrix())#, command=self.solveMatrix()
+        self.Button1.configure(text='''Solve''')#, command=self.solveMatrix()
 
         self.Button2 = tk.Button(self.top)
         self.Button2.place(relx=0.215, rely=0.612, height=34, width=67)
