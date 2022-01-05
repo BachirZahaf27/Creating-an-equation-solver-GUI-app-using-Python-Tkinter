@@ -25,4 +25,4 @@ my problem is when i bind the button with the function and run the program ,the 
 ![image](https://user-images.githubusercontent.com/61596276/148261350-9d5f289f-db7b-4ac3-82e4-21e1b2fab6ec.png)
 
 
-5)Source:https://sajeewasp.com/equation-solver/
+5) Source:https://sajeewasp.com/equation-solver/
