@@ -26,7 +26,6 @@ my problem is when i bind the button with the function and run the program ,the 
 
 To modify the Code open "My_linear_Solver_System.py"
 
-# Source:https://sajeewasp.com/equation-solver/
 
 # Update V3:
 + I finally fix the problem and you can check the code up in the file "Linear_Solver_System.py"
